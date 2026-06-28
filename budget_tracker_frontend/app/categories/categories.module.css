@@ -1,0 +1,96 @@
+.container {
+  padding: 2rem;
+  background: #f1f5f9;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.formCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.formTitle {
+  margin-top: 0;
+  color: #1e293b;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.formRow {
+  display: flex;
+  gap: 1rem;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #6366f1;
+}
+
+.button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background: #4f46e5;
+}
+
+.listCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.listTitle {
+  margin-top: 0;
+  color: #1e293b;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.categoryItem {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  color: #1e293b;
+  font-weight: 500;
+  border-left: 4px solid #6366f1;
+  font-size: 0.95rem;
+}
+
+.empty {
+  color: #94a3b8;
+  text-align: center;
+  padding: 2rem;
+}
